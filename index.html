@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Cookware Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/">
@@ -12,34 +12,107 @@
 </head>
 
 <body>
-    <div class="container-flex">
-        <nav class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
-                        class="d-inline-block align-text-top">
-                </a>
-                <a class="navbar-brand" href="#">
-                    COOKWARE
-                </a>
-                <a class="navbar-brand" href="#">
-                    BAKEWARE
-                </a>
-                <a class="navbar-brand" href="#">
-                    ACCESSORIES
-                </a>
-                <a class="navbar-brand" href="#">
-                    SALE
-                </a>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <div class="container-flex">
+            <nav class="navbar bg-body-tertiary">
+                <div class="container-fluid  navbar-1">
+                    <a class="navbar-brand" href="#">
+                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        COOKWARE
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        BAKEWARE
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        ACCESSORIES
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        SALE
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
 
-    <img src="./assets/hero.jpg" width="1924px" height="1067px" alt="lady cooking with her new pot and loving it">
+    <img class="heroImage" src="./assets/hero.jpg" alt="lady cooking with her new pot and loving it">
 
-    <div class="container-flex greener">
+    <div class="fluid-container greener">
         <p class="justify-content">Sale $10 off when you spend $150</p>
     </div>
+
+    <div class="fluid-container text-center mt-5">
+        <div class="row">
+            <div>
+                <p class="roboto weight700 size64 mt-3 mb-5">Start Cooking</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="firstset" src="./assets/StartCooking1.jpeg" alt="Cast Iron Pot">
+                <p class="roboto size36 weight600 ta-l">Cast Iron Pot</p>
+            </div>
+            <div class="col">
+                <img class="firstset" src="./assets/StartCooking2.jpeg" alt="Stock Pot">
+                <p class="roboto size36 weight600 ta-l">Stock Pot</p>
+            </div>
+            <div class="col">
+                <img class="firstset" src="./assets/StartCooking3.jpeg" alt="Sauce Pan">
+                <p class="roboto size36 weight600 ta-l">Sauce Pan</p>
+            </div>
+            <div class="col">
+                <img class="firstset" src="./assets/StartCooking4.jpeg" alt="Accessories">
+                <p class="roboto size36 weight600 ta-l">Accessories</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-container">
+        <h1 class="size48 weight400">Cookware Built to Last</h1>
+    </div>
+
+    <div class="fluid-container text-center mt-5">
+        <div class="row">
+            <div>
+                <p class="roboto weight700 size64">New Arrivals</p>
+            </div>
+        </div>
+        <div class="row text-left">
+            <div class="col">
+                <img class="secondset" style="width: 805px; height: 632px; object-fit: cover;"
+                    src="./assets/NewArrivals1.jpg" alt="New arrivals with a red pot on a grill">
+                <p class="roboto ta-l2">
+                <h1 class="weight700 size36 ta-l2">Fall Collection</h1>
+                <h5 class="ta-l2 weight400 size18">Our 2023 Fall Collection just came out with beautiful autumn color cookware.
+                <br>
+                <br>
+                Color: <b>Apple Cinnamon</b>
+                </h5>
+                </p>
+            </div>
+            <div class="col">
+                <img class="secondset" style="width: 805px; height: 632px; object-fit: cover;"
+                    src="./assets/NewArrivals2.jpg" alt="New arrivals with a wok">
+                <p class="roboto">
+                <h1 class="weight700 size36 ta-l2">Nonstick Wok 14 inch</h1>
+                <h5 class="ta-l2 weight400 size18">The nonstick wok is one of our most popular cookware. Perfect for everyday stir fry.</h5>
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
