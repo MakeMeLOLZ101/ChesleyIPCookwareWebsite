@@ -49,6 +49,11 @@
     margin-left: 4rem;
 }
 
+.ta-l3{
+    text-align: left;
+    margin-left: 1.5rem;
+}
+
 .ta-r{
     text-align: right;
 }
@@ -99,6 +104,18 @@
     align-content: center;
 }
 
+.cards{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .card{
+    width: 497px;
+    border-radius: 10px;
+    border: solid black 1.5px
+    
+ }
+
 /* Images section Start */
 
 .heroImage{
@@ -114,6 +131,13 @@
 .secondset{
     width: 805px;
     height: 632px;
+}
+
+.thirdset{
+    width: 449px;
+    height: 338px;
+    border-radius: 10px;
+    margin: 25px 0px 0px 23px;
 }
 
 /* Images section End */
