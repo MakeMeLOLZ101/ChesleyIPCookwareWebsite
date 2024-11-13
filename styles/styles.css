@@ -1,0 +1,12 @@
+.justify-content{
+    display: flex;
+    justify-content: center;
+}
+
+.greener{
+    width: 1920px;
+    height: 99px;
+    color: #FFFFFF;
+    font-size: 24px;
+    background-color: #1E2C20;
+}
