@@ -20,6 +20,10 @@
 
 /* sizes start */
 
+.size16{
+    font-size: 16px;
+}
+
 .size18{
     font-size: 18px;
 }
@@ -94,6 +98,13 @@
     display: fluid;
 }
 
+.grid-container{
+    display: grid;
+    margin-left: 110px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
 .justify-content{
     display: flex;
     justify-content: center;
@@ -120,18 +131,36 @@
 
 .cards{
     display: flex;
-    justify-content: space-around;
- }
+    justify-content: space-evenly;
+    
+}
 
- .card{
+.card{
     width: 497px;
     border-radius: 10px;
     border: solid black 1.5px
- }
+}
 
- .cardmarg{
+.gridcard{
+    width: 531px;
+    height: 664px;
+    border-radius: 10px;
+}
+
+.cardmarg{
     margin: 0px 20px 0px 20px;
- }
+}
+
+.shopbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 42px;
+    border: solid #292828 1px ;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
 
 /* Images section Start */
 
@@ -163,4 +192,57 @@
     margin: 25px 0px 0px 23px;
 }
 
+.fourthset{
+    width: 531px;
+    height: 664px;
+    border-radius: 10px;
+}
+
 /* Images section End */
+
+/* tiny circles Start */
+
+.tinyc{
+    display: flex;
+    width: 29px;
+    height: 31px;
+    border-radius: 50%;
+    border: solid black 2px;
+    background-color: white;
+    align-content: center;
+    
+}
+
+.tinyc .tinyc1{
+    display: flex;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #EA2D2C;
+    margin: auto;
+}
+
+.tinyc2{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #FB5108;
+    margin: auto;
+}
+
+.tinyc3{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #D29D12;
+    margin: auto;
+}
+
+.tinyc4{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #353535;
+    margin: auto;
+}
+/* tiny circles End */
