@@ -24,6 +24,10 @@
     font-size: 18px;
 }
 
+.size24{
+    font-size: 24px;
+}
+
 .size36{
     font-size: 36px;
 }
@@ -60,6 +64,16 @@
 
 /* text aligns End */
 
+/* text colors Start */
+.navtext{
+    color: #3f3c3c;
+}
+
+.navtextsale{
+    color: #B73A2A;
+}
+/* text colors End */
+
 /* Fonts End */
 
 .row{
@@ -69,7 +83,9 @@
 .navbar-1{
     display: flex;
     max-width: 100%;
-    text-align: center;
+    height: 120px;
+    
+    
 }
 
 .flex-container{
@@ -90,8 +106,8 @@
     color: white;
     padding: 30px 30px 30px 30px;
     position: absolute;
-    top: 920px;
-    left: 150px;
+    top: 1010px;
+    left: 133px;
 }
 
 .greener{
@@ -113,10 +129,19 @@
     width: 497px;
     border-radius: 10px;
     border: solid black 1.5px
-    
+ }
+
+ .cardmarg{
+    margin: 0px 20px 0px 20px;
  }
 
 /* Images section Start */
+
+.logoset{
+    position: absolute;
+    top: 24px;
+    left: 113px;
+}
 
 .heroImage{
     max-width: 100%;
