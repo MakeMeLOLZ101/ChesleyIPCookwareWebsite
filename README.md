@@ -12,5 +12,6 @@ Use the following for at least one section of cards: Flex box, CSS Grid and boot
 No use of the bootstrap "card" class - IE creating your own cards  
 Use CSS systems to style the site. But you must use each one at least one 
 
-Peer Name:
-Peer Review:
+Peer Name:Mason Quilon
+Peer Review:The site resembles the figma the responsiveness fits the content when using the inspect 
+the only thing is the footer responsiveness and some other positoining on the reviews section
