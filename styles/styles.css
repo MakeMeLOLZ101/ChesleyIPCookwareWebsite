@@ -161,13 +161,16 @@
 }
 
 .hero-container{
+    width: 545px;
+    height: 124px;
     background-color: #181818CC;
     color: white;
     padding: 30px 30px 30px 30px;
     position: absolute;
     top: 893px;
     left: 133px;
-    font-size: 48px;
+    font-size: 64px;
+    font-weight: 400;
 }
 
 .greener{
