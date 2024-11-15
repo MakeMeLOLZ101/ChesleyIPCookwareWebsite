@@ -195,6 +195,8 @@
 
 .card{
     width: 497px;
+    height: 338;
+    object-fit: cover;
     border-radius: 10px;
     border: solid black 1.5px
 }
@@ -372,11 +374,22 @@
 /* Phone screen Start */
 @media (max-width: 576px){
 
+    .size64{
+        font-size: 24px;
+    }
+
     .navbar{
         display: flex;
         width: 500px;
-        height: 200px;
-        
+        height: 60px;
+    }
+
+    .logoset{
+        position: absolute;
+        width: 40px;
+        height: 33px;
+        top: 14px;
+        left: 372px;
     }
 
     .size12{
@@ -388,12 +401,9 @@
         width: 100%;
     }
 
-    
     .heroImage{
         width: 500px;
         height: 332px;
-        
-        
     }
 
     .hero-container{
@@ -403,6 +413,26 @@
         position: absolute;
         top: 400px;
         left: 50px;
+        font-size: 20px;
+    }
+
+    .greener{
+        max-width: 432px;
+        height: 49px;
+        color: #FFFFFF;
+        font-size: 12px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: #1E2C20;
+        text-align: center;
+    }
+
+    .firstset{
+        width: 174px;
+        height: 187px;
+        border-radius: 10px;
+    }
+
+    .robotoS2{
         font-size: 20px;
     }
 
