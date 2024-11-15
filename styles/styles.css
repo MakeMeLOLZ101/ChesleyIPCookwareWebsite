@@ -144,6 +144,10 @@
     display: fluid;
 }
 
+.fluid-container-card{
+    display: fluid;
+}
+
 .grid-container{
     display: grid;
     margin-left: 110px;
@@ -163,6 +167,7 @@
     position: absolute;
     top: 893px;
     left: 133px;
+    font-size: 48px;
 }
 
 .greener{
@@ -189,14 +194,16 @@
 
 .cards{
     display: flex;
-    justify-content: space-evenly;
+    gap: 80px;
+    justify-content: center;
     
 }
 
 .card{
     width: 497px;
-    height: 338;
+    height: 100%;
     object-fit: cover;
+    margin-bottom: 100px;
     border-radius: 10px;
     border: solid black 1.5px
 }
@@ -245,11 +252,13 @@
 .secondset{
     width: 805px;
     height: 632px;
+    object-fit: cover;
 }
 
 .thirdset{
     width: 449px;
     height: 338px;
+    object-fit: cover;
     border-radius: 10px;
     margin: 25px 0px 0px 23px;
 }
@@ -257,6 +266,7 @@
 .fourthset{
     width: 531px;
     height: 664px;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -378,6 +388,15 @@
         font-size: 24px;
     }
 
+    .size20S{
+        font-size: 20px;
+    }
+
+    .flex-end{
+        display: flex;
+        align-items: flex-end;
+    }
+
     .navbar{
         display: flex;
         width: 500px;
@@ -402,8 +421,9 @@
     }
 
     .heroImage{
-        width: 500px;
+        width: 425px;
         height: 332px;
+        object-fit: cover;
     }
 
     .hero-container{
@@ -411,7 +431,7 @@
         color: white;
         padding: 10px 10px 10px 10px;
         position: absolute;
-        top: 400px;
+        top: 300px;
         left: 50px;
         font-size: 20px;
     }
@@ -434,6 +454,75 @@
 
     .robotoS2{
         font-size: 20px;
+    }
+
+    .secondset{
+        width: 395px;
+        height: 310px;
+        object-fit: cover;
+        margin-left: 15px;
+    }
+
+    .cards{
+        display: grid;
+    }
+
+    .card1{
+        width: 419px;
+        height: 657px;
+        margin-left: 0px;
+        border-radius: 10px;
+        border: solid black 1.5px
+    }
+
+    .card2{
+        width: 419px;
+        height: 680px;
+        margin-left: 0px;
+        border-radius: 10px;
+        border: solid black 1.5px
+    }
+
+    .card3{
+        width: 419px;
+        height: 680px;
+        margin-left: 0px;
+        border-radius: 10px;
+        border: solid black 1.5px
+    }
+
+    .thirdset{
+        width: 395px;
+        height: 310px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin: 25px 0px 0px 10px;
+    }
+
+    .grid-container{
+        display: grid;
+        margin-left: 5px;
+        grid-template-columns: repeat(1, 3fr);
+        grid-gap: 0px;
+    }
+
+    .fourthset{
+        width: 411px;
+        height: 564px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .review-container{
+        background-color: #12121299;
+        color: white;
+        padding: 10px 10px 10px 10px;
+        width: 378px;
+        height: 292px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 450px;
+        left: 15px;
     }
 
 
