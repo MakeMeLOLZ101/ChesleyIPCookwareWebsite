@@ -98,9 +98,9 @@
 }
 
 .navbar-1{
-    display: flex;
-    height: 120px;
+    height: 90px;
     gap: 30px;
+    margin-top: 30px;
 }
 
 .flex-container{
@@ -229,7 +229,16 @@
 
 /* tiny circles Start */
 
-.tinyc{
+.containercir{
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    line-height: 50px;
+    text-align: center;
+    justify-content: left;
+}
+
+.containercir .tinyc{
     display: flex;
     width: 29px;
     height: 31px;
@@ -237,10 +246,11 @@
     border: solid black 2px;
     background-color: white;
     align-content: center;
+    text-align: center;
     
 }
 
-.tinyc .tinyc1{
+.containercir .tinyc .tinyc1{
     display: flex;
     width: 21px;
     height: 21px;
@@ -249,29 +259,31 @@
     margin: auto;
 }
 
-.tinyc2{
+.containercir .tinyc2{
     width: 21px;
     height: 21px;
     border-radius: 50%;
     background-color: #FB5108;
-    margin: auto;
+    margin: 5px;
+    
 }
 
-.tinyc3{
+.containercir .tinyc3{
     width: 21px;
     height: 21px;
     border-radius: 50%;
     background-color: #D29D12;
-    margin: auto;
+    margin: 5px;
 }
 
-.tinyc4{
+.containercir .tinyc4{
     width: 21px;
     height: 21px;
     border-radius: 50%;
     background-color: #353535;
-    margin: auto;
+    margin: 5px;
 }
+
 /* tiny circles End */
 
 /* Phone screen Start */
